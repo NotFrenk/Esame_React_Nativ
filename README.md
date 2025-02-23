@@ -1,19 +1,16 @@
 # ProgettoNativConGrafica
 
 ## Descrizione
-ProgettoNativConGrafica è un'applicazione mobile sviluppata con **React Native** ed **Expo** per la gestione delle informazioni sui voli e sugli aeroporti. L'app comunica con un backend **Flask** che fornisce dati sugli aeroporti e sui voli, recuperati da un database **PostgreSQL**.
-
+ProgettoNativConGrafica è un'applicazione mobile sviluppata con **React Native** ed **Expo** per la gestione delle informazioni sui voli e sugli aeroporti. L'app comunica con un backend **Flask** che fornisce dati sugli aeroporti e sui voli.
 ## Tecnologie Utilizzate
 - **Frontend**: React Native, Expo
 - **Backend**: Flask, psycopg2
-- **Database**: PostgreSQL
 
 ## Requisiti
 Assicurati di avere installati i seguenti strumenti:
 - **Node.js** (versione più recente consigliata)
 - **Expo CLI** (`npm install -g expo-cli`)
 - **Python 3** e **Flask** (`pip install flask flask-cors psycopg2`)
-- **PostgreSQL**
 
 ## Installazione
 
@@ -24,15 +21,14 @@ Assicurati di avere installati i seguenti strumenti:
 ```
 
 ### 2. Avviare il backend Flask
-1. Configura il database PostgreSQL con le credenziali nel file `query.py`.
-2. Esegui il backend:
+1. Esegui il backend:
    ```sh
    python query.py
    ```
 
 Il server Flask sarà avviato su `http://127.0.0.1:5001` (o `http://10.0.2.2:5001` su emulatori Android).
 
-### 3. Installare le dipendenze del frontend
+### 2. Installare le dipendenze del frontend
 ```sh
 npm install
 ```
